@@ -74,25 +74,7 @@
       
     	}
 
-  		/*$('#change-ar').click(function(){
-  			$('#change-us').toggleClass('active');
-            $('#change-ar').toggleClass('active');
-    		$('body').css('background-image','url(Image/photo_bg_ar.png)');
-    		$("#email-photo").attr("src","images/btn_nor_email_ar.png");
-    		$("#retake-photo").attr("src", "images/btn_press_retake_ar.png");
-    		$("#btn_start").attr("src","images/start_btn_nor_ar.png");
-
-  		});
-  		$('#change-us').click(function(){
-  			writeCookie("lang","english");
-  			$('#change-us').addClass('active');
-  			$('#change-ar').removeClass('active');
-    		$('body').css('background-image','url(Images/photo_bg.png)');
-    		$("#email-photo").attr("src","images/btn_nor_email_en-us.png");
-    		$("#retake-photo").attr("src", "images/btn_nor_retake_en-us.png");
-    		$("#btn_start").attr("src","images/start_btn_nor_en-us.png");
-
-  		});*/
+  		
 
   		$('#take_photo').one('click', function(e){
 			e.preventDefault();
@@ -118,14 +100,14 @@
 	<div class="logo">
 		<img onclick="FC_ContentsCall('Home')" src="../../assets/logo.png">
 	</div>
-	<span class="col-sm-3 date-time" style="text-align: left; color: #3c3c3c">
-        <div style="font-weight: bold; font-size: 30px;" >San Antonio, TX</div>
-          <div id="content_air" style="font-size: 25px">San Antonio, TX</div>
-          <div id="content_date" style="font-size: 25px"></div>
-          <span id="condition" style="font-size: 25px"></span>
+	 <span class="col-sm-3 date-time" style="text-align: left; color: #3c3c3c">
+        <div id= 'appcity'>San Antonio, TX</div>
+          <div id="content_air">San Antonio, TX</div>
+          <div id="content_date" ></div>
+          <span id="condition"></span>
         <div>
-            <img id ="image-zoom" style="width: 60px" src="">
-             <span id="temp" style="font-size: 35px; font-weight: bold"></span>
+            <img id ="image-zoom" style="width: 50px" src="">
+             <span id="temp" ></span>
         </div>
     </span>
 </header>
