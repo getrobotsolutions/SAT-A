@@ -45,8 +45,8 @@ Hotel_en[1] = new Array ( "Blimpies","", "images/Blimpies.jpeg" , "images/offers
 Hotel_en[2] = new Array ( "Dunkin' Donuts","More than 2.7 million Americans a day can’t be wrong! Offering more than just donuts, the No. 1 U.S. retailer of coffee has been keeping America running since 1950. Let Dunkin’ Donuts give you that kick to your destination.", "images/5.png", "images/offers/404.png" );
 Hotel_en[3] = new Array ( "Famous Famiglia Pizzeria","It’s the pizza New Yorkers vote No. 1 and the offcial pie of the New York Yankees and Madison Square Garden. Famous Famiglia offers traditional Italian at its best, including pasta, calzones, heroes and salads. Buon appetito!", "images/6.png" , "images/offers/404.png");
 Hotel_en[4] = new Array ( "Fruteria","From fruit-infused cocktails to Mexican tapas, Fruteria offers a variety of items while providing the experience of Mexico’s beautiful and colorful fruit stands.", "images/7.png", "images/offers/La Fruteria/La Fruteria-1.png" );
-Hotel_en[5] = new Array ( "Good Fellows","Handcrafted beverages and a name you can trust – it doesn’t get any cozier than that. Curl up with a favorite brew or Tazo tea creation today … and don’t forget the biscotti..", "images/18.png", "images/offers/Starbucks/Starbucks-1.png" );
-Hotel_en[6] = new Array ( "Iceman Gervin's Sports Bar","Traveling got you stressed? Chill at Gervin’s Sports Bar. Featuring memorabilia from George “Ice Man” Gervin, catch up on the Spurs while savoring Base Line nachos, the Slam Dunk turkey sandwich or the Nothing But Net club sandwich. Game on!", "images/9.png" , "images/offers/404.png");
+Hotel_en[5] = new Array ( "Good Fellows","", "images/Good Fellows.jpeg", "images/offers/404.png" );
+Hotel_en[6] = new Array ( "Gervin's","Traveling got you stressed? Chill at Gervin’s Sports Bar. Featuring memorabilia from George “Ice Man” Gervin, catch up on the Spurs while savoring Base Line nachos, the Slam Dunk turkey sandwich or the Nothing But Net club sandwich. Game on!", "images/9.png" , "images/offers/404.png");
 Hotel_en[7] = new Array ( "La Gloria","Experience the rich and delicious street foods of Mexico. From tacos to shrimp cocktail, these street foods are as unique and colorful as Mexico’s traditions, people and culture.", "images/10.png", "images/offers/La Gloria/La Gloria-1.png" );
 Hotel_en[8] = new Array ( "La Tapenade","Take your taste buds on a trip with a Mediterranean-inspired meal. La Tapenade Mediterranean Café offers a plethora of healthy, yet delicious meals to satisfy that preflight hunger.", "images/11.png", "images/offers/La Tapenade/La Tapenade-1.png" );
 Hotel_en[9] = new Array ( "Mission City Ice House","Have time to spare? Then cool your jets and grab a seat at our bar. Relax and enjoy a wide variety of locally brewed beers.", "images/12.png" , "images/offers/404.png");
@@ -65,8 +65,8 @@ Hotel_sp[1] = new Array ( "Blimpies","", "images/Blimpies.jpeg" , "images/offers
 Hotel_sp[2] = new Array ( "Dunkin' Donuts","Más de 2.7 millones de Americanos al día no pueden estar equivocados! Ofreciendo algo más que rosquillas, el mayor minorista de café de EE. UU. Ha mantenido a América en funcionamiento desde 1950. Permita que Dunkin 'Donuts le dé esa patada a su destino.", "images/5.png" , "images/offers/404.png");
 Hotel_sp[3] = new Array ( "Famous Famiglia Pizzeria","Es la pizza que los Neoyorquinos votan n. ° 1 y el pastel oficial de los Yankees de Nueva York y el Madison Square Garden. El famoso Famiglia ofrece lo mejor del italiano tradicional, como pasta, calzones, héroes y ensaladas. Buon appetito!", "images/6.png" , "images/offers/404.png");
 Hotel_sp[4] = new Array ( "Fruteria","Desde cócteles infundidos con frutas hasta tapas mexicanas, Fruteria ofrece una variedad de artículos mientras brinda la experiencia de los hermosos y coloridos puestos de frutas de México.", "images/7.png", "images/offers/La Fruteria/La Fruteria-1.png" );
-Hotel_sp[5] = new Array ( "Good Fellows","Handcrafted beverages and a name you can trust – it doesn’t get any cozier than that. Curl up with a favorite brew or Tazo tea creation today … and don’t forget the biscotti..", "images/18.png", "images/offers/Starbucks/Starbucks-1.png" );
-Hotel_sp[6] = new Array ( "Iceman Gervin's Sports Bar","Viajar te hizo estresar? Relájate en el Gervin’s Sports Bar. Con recuerdos de George Ice Man Gervin, ponte al día con los Spurs mientras saboreas los nachos de Base Line, el sándwich de pavo Slam Dunk o el sándwich del club Nothing But Net. Juego encendido!", "images/9.png" , "images/offers/404.png");
+Hotel_sp[5] = new Array ( "Good Fellows","", "images/Good Fellows.jpeg", "images/offers/404.png" );
+Hotel_sp[6] = new Array ( "Gervin's","Viajar te hizo estresar? Relájate en el Gervin’s Sports Bar. Con recuerdos de George Ice Man Gervin, ponte al día con los Spurs mientras saboreas los nachos de Base Line, el sándwich de pavo Slam Dunk o el sándwich del club Nothing But Net. Juego encendido!", "images/9.png" , "images/offers/404.png");
 Hotel_sp[7] = new Array ( "La Gloria","Experimenta las ricas y deliciosas comidas callejeras de México. Desde tacos hasta cócteles de camarones, estos alimentos callejeros son tan únicos y coloridos como las tradiciones, la gente y la cultura de México.", "images/10.png" ,"images/offers/La Gloria/La Gloria-1.png");
 Hotel_sp[8] = new Array ( "La Tapenade","Disfrute de sus papilas gustativas en un viaje con una comida de inspiración mediterránea. La Tapenade Mediterranean Café ofrece una gran cantidad de comidas sanas pero deliciosas para satisfacer el hambre antes del avistamiento.", "images/11.png", "images/offers/La Tapenade/La Tapenade-1.png" );
 Hotel_sp[9] = new Array ( "Mission City Ice House","Tienes tiempo de sobra? Luego refresque sus jets y tome asiento en nuestro bar. Relájese y disfrute de una amplia variedad de cervezas locales.", "images/12.png" , "images/offers/404.png");
@@ -83,12 +83,12 @@ if(readCookie("CurrentLanguage") === "English")
 {
   var Hotel = new Array ( );
    Hotel = Hotel_en ;
-   document.getElementById("HotelDesc").innerHTML = "At the Alamo Alehouse, you can choose from many great menu items including breakfast sandwiches, customizable burgers and tasty starters and sides! And of course, being an alehouse, Alamo also offers a great beer and wine selection!";
+   document.getElementById("HotelDesc").innerHTML = "The fresh, gooey taste of a Cinnabon cinnamon roll accompanied with a deliciously perfected Auntie Anne’s pretzel offers SAT passengers a sweet treat on the go.";
 }else if(readCookie("CurrentLanguage") === "Spanish")
 {
    var Hotel = new Array ( );
    Hotel = Hotel_sp ;
-    document.getElementById("HotelDesc").innerHTML = "En Alamo Alehouse, puedes elegir entre muchos excelentes platos de menú que incluyen sándwiches para el desayuno, hamburguesas personalizables y sabrosos entrantes y acompañantes. Y, por supuesto, al ser una cervecería, Alamo también ofrece una excelente selección de cervezas y vinos.";
+    document.getElementById("HotelDesc").innerHTML = "El sabor fresco y pegajoso de un rollo de canela Cinnabon acompañado con un pretzel de la Auntie Anne deliciosamente perfeccionado ofrece a los pasajeros del SAT un dulce regalo en el camino.";
 }
 
 
